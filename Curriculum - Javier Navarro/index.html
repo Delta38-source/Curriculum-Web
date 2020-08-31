@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
-<head><!--Titulo de la pestaña, linea para ajustar el contenido al monitor del usuario-->
+
+<head>
+    <!--Titulo de la pestaña, linea para ajustar el contenido al monitor del usuario-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum</title>
+    <title>CV Javier Navarro</title>
+    <link rel="stylesheet" type="text/css" href="./src/css/index.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/menu.css">
 </head>
-<body style="background-image: url(./src/imgs/jake-bartok-asset.jpg);">
-    <div style="background-color:cornflowerblue;"><!--Nombre, Institución, Departamento y Carrera-->
+
+<body>
+    <header class="navMenu"><!--Div contenedor del menu de navegación-->
+        <nav><!--Enlaces a las otras secciones-->
+            <ul>
+                <img src="./src/icons/menu.svg" alt="No icon found...">
+            </ul>
+            <ul>
+                <li>
+                    <a href="./interes.html" target="_blank">Intereses</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="./estudio.html" target="_blank">Estudios</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="./experiencia.html" target="_blank">Experiencia</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <!--Nombre, Institución, Departamento y Carrera-->
         <h1>Javier Arnoldo Navarro Denogean.</h1>
         <h2>Universidad Autónoma de Baja California Sur.</h2>
         <h3>Departamento de Sistemas Computacionales.</h3>
         <h4>Licenciatura en Administración de Tecnologías de la Información.</h4>
-    </div>
-    <div style="background-color:cornflowerblue;"><!--Enlaces a las otras secciones-->
-        <ul>
-            <li>
-                <a href="./interes.html" type="blank_">Intereses.</a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="./estudio.html" type="blank_">Estudios.</a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="./experiencia.html" type="blank_">Experiencia.</a>
-            </li>
-        </ul>
+        <img src="./src/imgs/pfp.jpg" alt="No picture found..." class="pfp">
     </div>
 </body>
 </html>

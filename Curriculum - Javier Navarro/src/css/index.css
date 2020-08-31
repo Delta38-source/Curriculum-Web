@@ -1,0 +1,6 @@
+body {
+    background-image: url(../imgs/jake-bartok-asset.jpg);
+    background-color: rgb(59, 59, 59);
+    background-blend-mode: overlay;
+    color: rgb(235, 235, 235);
+}
